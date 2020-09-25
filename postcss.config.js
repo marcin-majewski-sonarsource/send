@@ -17,7 +17,6 @@ if (process.env.NODE_ENV === 'development') {
   options.plugins.push(
     require('@fullhuman/postcss-purgecss')({
       content: [
-        './app/*.js',
         './app/ui/*.js',
         './android/*.js',
         './android/pages/*.js'
