@@ -41,7 +41,7 @@ module.exports = function(state, body = '') {
           href="${assets.get('app.css')}"
         />
         <link
-          rel="apple-touch-icon"
+          rel="apple-touch-ico"
           sizes="180x180"
           href="${assets.get('apple-touch-icon.png')}"
         />
