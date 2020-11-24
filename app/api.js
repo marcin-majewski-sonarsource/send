@@ -29,7 +29,7 @@ export function getFileProtocolWssUrl() {
   return fileProtocolWssUrl;
 }
 
-let apiUrlPrefix = '';
+let apiUrlPrefix = 'prefix';
 export function getApiUrl(path) {
   return apiUrlPrefix + path;
 }
